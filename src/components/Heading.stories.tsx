@@ -4,6 +4,9 @@ import { Meta, StoryObj } from "@storybook/react";
 export default {
   title: "Components/Heading",
   component: Heading,
+  args: {
+    children: "Heading Medium"
+  },
   argTypes: {
     size: {
       options: ["sm", "md", "lg"],
