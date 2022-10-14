@@ -6,11 +6,11 @@ Project developed during <strong>Ignite Lab</strong> using:
 - React
 - Tailwind CSS
 - Storybook
+- clsx
 
 You can access Storybook <a href="https://francinyreichert.github.io/ignite-lab-design-system/">here</a>.
 
-
-<h2>💻 Preview </h2> 
+<h2>Preview </h2> 
 
 ![image](https://user-images.githubusercontent.com/65377988/195931666-b182a61e-f952-4ba2-8dee-3ca2ea5a000d.png)
 
@@ -21,3 +21,7 @@ You can access Storybook <a href="https://francinyreichert.github.io/ignite-lab-
 - cd ignite-lab-design-system
 - npm install
 - npm run dev
+
+<h2> Tools </h2>
+
+To convert SVG to JSX, use https://transform.tools/
