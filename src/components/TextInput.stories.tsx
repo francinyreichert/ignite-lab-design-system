@@ -13,7 +13,13 @@ export default {
         <TextInput.Input placeholder="Type your e-mail address" />
     ],
   },
-  argTypes: {},
+  argTypes: {
+    children: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 } as Meta<TextInputRootProps>;
 
 export const Default: StoryObj<TextInputRootProps> = {};
