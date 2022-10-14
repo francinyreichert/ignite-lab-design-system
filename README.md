@@ -1,6 +1,6 @@
-<h1>Ignite Lab Design System</h1>
+<h2>💻 Ignite Lab Design System</h2>
 
-Project developed during Ignite Lab using: 
+Project developed during <strong>Ignite Lab</strong> using: 
 
 - Vite
 - React
