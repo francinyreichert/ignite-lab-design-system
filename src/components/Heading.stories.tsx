@@ -4,9 +4,6 @@ import { Meta, StoryObj } from "@storybook/react";
 export default {
   title: "Components/Heading",
   component: Heading,
-  args: {
-    children: "Lorem ipsum.",
-  },
   argTypes: {
     size: {
       options: ["sm", "md", "lg"],
@@ -22,12 +19,14 @@ export const Default: StoryObj<HeadingProps> = {};
 export const Small: StoryObj<HeadingProps> = {
   args: {
     size: "sm",
+    children: "Heading Small"
   },
 };
 
 export const Large: StoryObj<HeadingProps> = {
   args: {
     size: "lg",
+    children: "Heading Large"
   },
 };
 
